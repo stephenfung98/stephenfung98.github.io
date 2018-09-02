@@ -55,14 +55,26 @@ p {
 
 .text-faded {
     color: rgba(255,255,255,.7)
+    font-style: normal;
+}
+.no-italics {
+    font-style: normal;
 }
 
-section {
-    padding: 100px 0
+
+.image-three-wide {
+  width:200px;
+  height:40px;
 }
 
-aside {
-    padding: 50px 0
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.portfolio-thumb portfolio-big{
+  vertical-align: center
 }
 
 .no-padding {

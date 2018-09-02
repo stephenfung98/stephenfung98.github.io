@@ -56,9 +56,9 @@ b,
 strong {
   font-weight: bold;
 }
-dfn {
+/* dfn {
   font-style: italic;
-}
+} */
 h1 {
   margin: .67em 0;
   font-size: 2em;
@@ -225,6 +225,18 @@ th {
   img {
     page-break-inside: avoid;
   }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
   img {
     max-width: 100% !important;
   }
@@ -441,9 +453,9 @@ th {
 .glyphicon-bold:before {
   content: "\e048";
 }
-.glyphicon-italic:before {
+/* .glyphicon-italic:before {
   content: "\e049";
-}
+} */
 .glyphicon-text-height:before {
   content: "\e050";
 }

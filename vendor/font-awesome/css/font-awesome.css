@@ -328,9 +328,9 @@
 .fa-bold:before {
   content: "\f032";
 }
-.fa-italic:before {
+/* .fa-italic:before {
   content: "\f033";
-}
+} */
 .fa-text-height:before {
   content: "\f034";
 }
