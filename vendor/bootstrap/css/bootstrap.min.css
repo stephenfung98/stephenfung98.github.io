@@ -7749,7 +7749,12 @@ button.close {
   float: left;
   width: 25%;
   padding: 5px;
+}
 
+.column3Img {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
 }
 
 
