@@ -19,6 +19,11 @@ hr {
     max-width: 50px
 }
 
+.bo{
+  text-align: justify!important;
+  font-family: Helvetica !important;
+}
+
 hr.light {
     border-color: #fff
 }
@@ -338,6 +343,7 @@ header .header-content .header-content-inner p {
 
 .text-primary {
     color: #f05f40
+     text-align: justify!important;
 }
 
 .no-gutter>[class*=col-] {

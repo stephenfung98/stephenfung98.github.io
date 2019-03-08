@@ -16,6 +16,11 @@
     webkit-tap-highlight-color:#222;
     background-color:#fff;
 }
+.bo{
+  font-size: 15px;
+  text-align: justify!important;
+  font-family: Helvetica !important;
+}
  .btn,.navbar-default,.navbar-default .navbar-header .navbar-brand,h1,h2,h3,h4,h5,h6{
     font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
 }
