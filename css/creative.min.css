@@ -2,6 +2,18 @@
     -webkit-transition:all .35s;
     -moz-transition:all .35s
 }
+
+.borderThick{
+  border-color: blue!important;
+  border-radius: 5px!important;
+  border-style: solid!important;
+
+}
+
+.fareRide{
+  width:100%;
+  height: auto;
+}
  header,header .header-content{
     position:relative;
     width:100%;
