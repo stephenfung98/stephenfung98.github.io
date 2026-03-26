@@ -1,575 +1,172 @@
 <!DOCTYPE html>
-<html lang=en>
-
+<html lang="en">
 <head>
-  <meta charset=utf-8>
-  <meta content="IE=edge" http-equiv=X-UA-Compatible>
-  <meta content="width=device-width,initial-scale=1" name=viewport>
-  <meta content="" name=description>
-  <meta content="" name=author>
-  <title>Stephen Fung | University Student</title>
-  <link href=vendor/bootstrap/css/bootstrap.min.css rel=stylesheet>
-  <link href=img/icon.jpg rel="shortcut icon">
-  <link href=vendor/font-awesome/css/font-awesome.min.css rel=stylesheet>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"rel=stylesheet>
-      <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic"rel=stylesheet> -->
-  <link href=vendor/magnific-popup/magnific-popup.css rel=stylesheet>
-  <link href=css/creative.min.css rel=stylesheet>
-  <!--[if lt IE 9]>
-      <script src=https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js></script>
-      <script src=https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js></script>
-      <![endif]-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stephen Fung - iOS Developer building apps that people use. TrackIt, RemodelAI, RoomKit, and more.">
+  <meta name="author" content="Stephen Fung">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Stephen Fung - iOS Developer">
+  <meta property="og:description" content="iOS Developer building apps that people use. TrackIt, RemodelAI, RoomKit, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Stephen Fung">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Stephen Fung - iOS Developer">
+  <meta name="twitter:description" content="iOS Developer building apps that people use.">
+  
+  <title>Stephen Fung | iOS Developer</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/portfolio.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/hero-sticker.png">
 </head>
+<body>
 
-<body id=page-top>
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
-  <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () { scrollFunction() };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-      } else {
-        document.getElementById("myBtn").style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
-  <nav class="navbar navbar-default navbar-fixed-top" id=mainNav>
-    <div class=container-fluid>
-      <div class="page-scroll navbar-header">
-        <div style=display:flex;justify-content:center;align-items:center>
-          <button class=navbar-toggle data-target=#bs-example-navbar-collapse-1 data-toggle=collapse type=button>
-            <span class=sr-only>Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-          </button>
-          <a href=https://github.com/stephenfung98> <i class="fa fa-2x fa-github" aria-hidden=true></i></a>&nbsp;&nbsp;
-
-          <a href=mailto:sfung3@buffalo.edu><i class="fa fa-2x fa-envelope" aria-hidden=true></i></a>&nbsp;&nbsp;
-
-          <a href=https://www.linkedin.com/in/stephenfung0> <i class="fa fa-2x fa-linkedin" aria-hidden=true></i></a>&nbsp;&nbsp;
-          <a href=#page-top class=navbar-brand aria-hidden=true>
-          </a>
-        </div>
-      </div>
-      <div class="collapse navbar-collapse" id=bs-example-navbar-collapse-1>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href=#about class=page-scroll>About Me</a>
-          </li>
-          <li>
-            <a href=#projects class=page-scroll>Projects</a>
-          </li>
-          <li>
-            <a href=#portfolio class=page-scroll>Photography</a>
-          </li>
-          <li>
-            <a href=#contact class=page-scroll>Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- Header -->
   <header>
-    <div class=header-content>
-      <div class=header-content-inner>
-        <h1 id=homeHeading>Stephen Fung</h1>
-        <hr>
-        <p>Programming + Photography</p>
-        <p>
-          <a href=StephenFungResume.pdf target=_blank><i class="fa fa-2x fa-file-pdf-o" aria-hidden="true"></i></a>
-          &nbsp;
-          &nbsp;
-          <a href=https://github.com/stephenfung98 target=_blank><i class="fa fa-2x fa-github" aria-hidden=true></i></a>
-        </p>
-      </div>
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-text">Stephen Fung</span>
+      </a>
+      <nav>
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="mailto:stephen@caseadri.com">Contact</a>
+      </nav>
     </div>
   </header>
-  <section id=about class=bg-primary>
-    <div class=container>
-      <div class=row>
-        <div class="text-center col-lg-offset-2 col-lg-8">
-          <h2 class=section-heading>About me</h2>
-          <hr class=light>
-          <p class=text-faded>
-            <i>My name is Stephen Fung and I am currently a Junior at the University at Buffalo. I was born and raised
-              in Brooklyn, New York
-              and have an interest in technology. I'm currently studying computer science at the University at Buffalo.
-              When I'm not coding,
-              you can find me studying. Want to work together? I'd love to hear from you.
-          </p>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">iOS Developer</div>
+          <h1>Building Apps<br><em>People</em><br>Actually Use</h1>
+          <p>Solo developer creating iOS apps that solve real problems. From Bluetooth finders to home renovation tools.</p>
+          <div class="hero-cta">
+            <a href="mailto:stephen@caseadri.com" class="btn">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="img/hero-sticker.png" alt="Stephen Fung">
         </div>
       </div>
     </div>
   </section>
 
-
-  <section id="projects">
-    <div class="container-fluid">
-
-      <div class="col-lg-offset-2 col-lg-8">
-        <h2 class="section-heading text-center">Featured Projects</h2>
-
-        <hr class="dark">
-        <div class="row text-center">
-          <div class="column">
-            <img src="img/intra0.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/intra1.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/intra2.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/intra3.png" style="width:100%">
-          </div>
+  <!-- Apps Section -->
+  <section class="features" id="apps">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Apps</h2>
+        <p>A selection of apps I've built and ship to the App Store.</p>
+      </div>
+      
+      <!-- TrackIt -->
+      <div class="app-showcase">
+        <div class="app-info">
+          <h3>TrackIt</h3>
+          <p>Find your lost Bluetooth devices. AirPods, headphones, earbuds, Apple Watch - TrackIt uses signal strength to pinpoint locations with precision.</p>
+          <a href="https://apps.apple.com/us/app/trackit-ble-tracker/id1505257865" class="btn" target="_blank">View on App Store</a>
         </div>
-
-        <div class="row">
-          <h1 class="text-center lead">Lightroom Presets - Intra</h1>
-          <a href="https://apps.apple.com/us/app/lightroom-presets-intra/id1619443737?platform=iphone">View on
-            the app store</a>
-          <p class="bo">Lightroom Presets - Intra provides trendy presets for Lightroom mobile or Desktop.
-            <br>
-            Our team of professional photographers are contantly creating new presets to be added weekly.
-            <br>
-            Intra currently offers 120+ presets and 23+ preset packs:
-            Golden, City, Summer, Fall, Sprint, Winter, Travel, Black & White, Night party, Home, Fashion, Food,
-            Instagram, Portraits, Wedding, Perfection, and Radiant
+        <div class="app-images">
+          <img src="https://caseadri.com/trackIt/images/screenshot-1.webp" alt="TrackIt">
+          <img src="https://caseadri.com/trackIt/images/screenshot-2.webp" alt="TrackIt">
         </div>
-
-        <hr class="dark">
-        <div class="row text-center">
-          <div class="column">
-            <img src="img/web3noti0.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/web3noti1.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/web3noti2.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/web3noti3.png" style="width:100%">
-          </div>
+      </div>
+      
+      <hr class="dark">
+      
+      <!-- RemodelAI -->
+      <div class="app-showcase reverse">
+        <div class="app-info">
+          <h3>RemodelAI</h3>
+          <p>AI-powered home renovation planning. Take a photo of any room and visualize it with different designs, furniture, and styles.</p>
+          <a href="https://apps.apple.com/us/app/home-renovation-remodel-room/id6538722709" class="btn" target="_blank">View on App Store</a>
         </div>
-
-        <div class="row">
-          <h1 class="text-center lead">WEB3NOTI: NFT Launch Calendar</h1>
-          <a href="https://apps.apple.com/us/app/web3noti/id1608996607?platform=iphone">View on
-            the app store</a>
-          <p class="bo">WEB3NOTI - A bridge between WEB2 & WEB3 reminders, so you never miss a drop again!
-            <br>
-            NFT based application that allows users to create an interactive watchlist, which will be one hundred
-            percent customizable.
-            WEB3NOTI focuses on the latest and greatest drops of the day, which is only half of the plan as we begin to
-            track hundreds of upcoming projects.
-            <br>
-            Our team is devoted to mass information sourcing and providing real-time information, so users will no
-            longer miss a drop.
+        <div class="app-images">
+          <img src="https://caseadri.com/remodelai/images/screenshot-1.webp" alt="RemodelAI">
+          <img src="https://caseadri.com/remodelai/images/screenshot-2.webp" alt="RemodelAI">
         </div>
-
-        <hr class="dark">
-        <div class="row text-center">
-          <div class="column">
-            <img src="img/trackit0.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/trackit1.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/trackit2.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/trackit3.png" style="width:100%">
-          </div>
+      </div>
+      
+      <hr class="dark">
+      
+      <!-- RoomKit -->
+      <div class="app-showcase">
+        <div class="app-info">
+          <h3>RoomKit</h3>
+          <p>Interior design toolkit for iOS. Browse furniture, plan layouts, and design your perfect space with AI suggestions.</p>
+          <a href="https://apps.apple.com/us/app/roomkit/id6476798784" class="btn" target="_blank">View on App Store</a>
         </div>
-
-        <div class="row">
-          <h1 class="text-center lead">TrackIt: Locate Lost Devices</h1>
-          <a href="https://apps.apple.com/us/app/trackit-lost-bluetooth-finder/id1505257865#?platform=iphone">View on
-            the app store</a>
-          <p class="bo">An iOS app that allows users to find their lost bluetooth devices. Recived over 40,000 downloads
-            in the first year.
-            <br>
-            TrackIt helps you find your lost iPhone, iPad, AirPods, Apple Watch, Apple Pencil, Headphones, Speakers,
-            Earbuds and other Bluetooth devices in minutes. We use the Bluetooth signal from your device to help you
-            locate your device with great accuracy.
-            <br>
-            TrackIt can locate any Bluetooth Low Energy device. Use it to help you or your family find your lost devices
-            with ease.
+        <div class="app-images">
+          <img src="https://caseadri.com/roomkit/images/screenshot-1.webp" alt="RoomKit">
+          <img src="https://caseadri.com/roomkit/images/screenshot-2.webp" alt="RoomKit">
         </div>
-
-
-        <hr class="dark">
-        <div class="row text-center">
-          <div class="column">
-            <img src="img/Fair0.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/Fair1.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/Fair2.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/Fair3.png" style="width:100%">
-          </div>
+      </div>
+      
+      <hr class="dark">
+      
+      <!-- Algo -->
+      <div class="app-showcase reverse">
+        <div class="app-info">
+          <h3>Algo</h3>
+          <p>AI-powered text to art generator. Transform your ideas into stunning artwork with the power of artificial intelligence.</p>
+          <a href="https://apps.apple.com/us/app/ai-text-to-art-generator-algo/id6444638017" class="btn" target="_blank">View on App Store</a>
         </div>
-
-        <div class="row">
-          <!-- <p class="description"> -->
-          <h1 class="text-center lead">FairRide IOS</h1>
-          <p class="bo">An IOS application inspired by expanding my first application through creating
-            FairRide for another platform. Some improvements compared to the Android version would be faster speed,
-            better UI, and deep links bringing
-            you to the respective ride sharing app with the pickup and drop-off locations set. It compares Uber and Lyft
-            estimated fares, shows time to
-            closest ride, surcharge, fastest route, and contains deep links for quick booking.
-          </p>
-
-          <!-- </p> -->
+        <div class="app-images">
+          <img src="https://caseadri.com/algo/images/screenshot-1.webp" alt="Algo">
+          <img src="https://caseadri.com/algo/images/screenshot-2.webp" alt="Algo">
         </div>
+      </div>
+      
+    </div>
+  </section>
 
-
-        <hr class="dark">
-        <div class="row">
-          <div class="column">
-            <img src="img/packageTracker3.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/packageTracker1.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/packageTracker2.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/packageTracker4.png" style="width:100%" class="center">
-          </div>
-        </div>
-
-        <h1 class="text-center lead">PackageTracker IOS</h1>
-        <p class="bo">An IOS application inspired by the lack of free package trackers. The most
-          popular package tracker on the App store only allows the user to track 3 concurrent packages without having to
-          pay. With my application, users are able to track
-          unlimited packages from USPS, UPS, FedEx, Lasership, & DHL all in one app.
-        </p>
-
-
-        <hr class="dark">
-        <div class="row">
-          <div class="column">
-            <img src="" style="width:100%" class="center">
-          </div>
-          <div class="column">
-            <img src="img/AtlasMarket0.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="img/AtlasMarket1.png" style="width:100%">
-          </div>
-          <div class="column">
-            <img src="" style="width:100%" class="center">
-          </div>
-        </div>
-
-        <h1 class="text-center lead">Atlas Markets IOS</h1>
-        <p class="bo">An IOS application to comapre stock and cryptocurrency prices in real time.
-          This application uses Alpha Vantage API, Charts API, JSON parsing,
-          </b>
-        </p>
-
-        <hr class="dark">
-        <div class="row">
-          <div class="column">
-            <img src="" style="width:100%" class="center">
-          </div>
-          <div class="column">
-            <img src="img/fairRideAndroid0.png" style="width:100%" class="center">
-          </div>
-          <div class="column">
-            <img src="img/fairRideAndroid1.png" style="width:100%" class="center">
-          </div>
-          <div class="column">
-            <img src="" style="width:100%" class="center">
-          </div>
-        </div>
-        <h1 class="text-center lead">FairRide Android</h1>
-        <p class="bo">An Android app started at PennHacks 2017 with three of my friends. The
-          insperation came from trying to live our frugal college life and saving time simultaneously. Ultimately we
-          decided to create an app
-          that compares Uber and Lyft’s prices to see which one is cheaper since we had to do it every week when we
-          wanted to go grocery shipping.
-          We created FairRide by using Amazon DynamoDB, Google Maps API, and Google Places API
-
-        </p>
-
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-content">
+        <h2>About</h2>
+        <p>I'm a software engineer specializing in iOS development. I build apps that solve real problems and ship them to the App Store. When I'm not coding, I'm thinking about what to build next.</p>
       </div>
     </div>
   </section>
-  <section id=portfolio class=no-padding>
-    <div class=container-fluid>
-      <div class="row no-gutter popup-gallery">
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/bund.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/bund.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  A building across from the bund
-                </div>
-                <div class=project-name>
-                  Shanghai
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/bahamas.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/bahamas.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Harborside Villas
-                </div>
-                <div class=project-name>
-                  Nassau, Bahamas
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/cityBikes.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/cityBikes.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Citi Bikes
-                </div>
-                <div class=project-name>
-                  New York, New York
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/goose.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/goose.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  goose standing on one leg
-                </div>
-                <div class=project-name>
-                  New York, New York
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/whinnie.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/whinnie.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Winnie the Pooh
-                </div>
-                <div class=project-name>
-                  Bay Lake, Florida
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/yellowMountain.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/yellowMountain.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Yellow Mountain
-                </div>
-                <div class=project-name>
-                  China
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/fujiMountain.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/fujiMountain.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Fuji mountains behind clouds
-                </div>
-                <div class=project-name>
-                  Tokyo, Japan
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/dog.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/dog.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Husky
-                </div>
-                <div class=project-name>
-                  Brooklyn, New York
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/osaka.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/osaka.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Dōtonbori - one of the principal tourist destinations in Osaka, Japan
-                </div>
-                <div class=project-name>
-                  Osaka, Japan
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/ginza.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/ginza.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Waiting for the train at Ginza station in Japan
-                </div>
-                <div class=project-name>
-                  Japan
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/m2.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/m2.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  500GB NVMe SSD
-                </div>
-                <div class=project-name>
-                  Brooklyn, New York
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/fujiClouds.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/fujiClouds.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  On top of Fuji mountain looking down
-                </div>
-                <div class=project-name>
-                  Japan
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/vegasStrip.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/vegasStrip.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Las Vegas Strip
-                </div>
-                <div class=project-name>
-                  Nevada, Las Vegas
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/inAndOut.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/inAndOut.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  In and Out burger
-                </div>
-                <div class=project-name>
-                  Nevada, Las Vegas
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a href=img/portfolio/fullsize/love.jpg class=portfolio-box>
-            <img alt="" class=img-responsive src=img/portfolio/thumbnails/love.jpg>
-            <div class=portfolio-box-caption>
-              <div class=portfolio-box-caption-content>
-                <div class="text-faded project-category">
-                  Reflection of a love sign through water
-                </div>
-                <div class=project-name>
-                  Nevada, Las Vegas
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
 
-  </section>
-  <section id=contact>
-    <div class=container>
-      <div class=row>
-        <div class="text-center col-lg-offset-2 col-lg-8">
-          <h2 class=section-heading>Let's Get In Touch!</h2>
-          <hr class=primary>
-          <p>If you have any questions, please feel free to give me a call. If you dont get an immediately I might be in
-            the middle of coding but i'll get back to you as soon as possible.</p>
-        </div>
-        <div class="col-lg-4 text-center col-lg-offset-2">
-          <i class="fa fa-3x sr-contact fa-phone"></i>
-          <p>(646) 472-4896</p>
-        </div>
-        <div class="col-lg-4 text-center">
-          <i class="fa fa-3x sr-contact fa-envelope-o"></i>
-          <p><a href=mailto:sfung3@buffalo.edu>sfung3@buffalo.edu</a></p>
-        </div>
-      </div>
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Let's Work Together</h2>
+      <p>Have a project in mind or want to chat about iOS development?</p>
+      <a href="mailto:stephen@caseadri.com" class="btn">Send an Email</a>
     </div>
   </section>
-  <script src=vendor/jquery/jquery.min.js> </script>
-  <script src=vendor/bootstrap/js/bootstrap.min.js> </script>
-  <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js> </script>
-  <script src=vendor/scrollreveal/scrollreveal.min.js>
-  </script>
-  <script src=vendor/magnific-popup/jquery.magnific-popup.min.js> </script>
-  <script src=js/creative.min.js> </script>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span class="logo-text">Stephen Fung</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/stephenfung98" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/stephenfung0" target="_blank">LinkedIn</a>
+        <a href="mailto:stephen@caseadri.com">Email</a>
+      </div>
+      <div class="footer-copy">© 2024 Stephen Fung</div>
+    </div>
+  </footer>
+
+</body>
+</html>
